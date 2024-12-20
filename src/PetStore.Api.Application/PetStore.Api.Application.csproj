@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CleanTest.Framework" Version="1.0.0-alpha.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PetStore.Api.Domain\PetStore.Api.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

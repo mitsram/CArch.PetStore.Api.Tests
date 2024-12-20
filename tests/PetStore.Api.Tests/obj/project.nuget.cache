@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "HGrnKhvLhPcDykB70WBcCVyRw7bvz3T2b2F80aE+EEjdhwYQY6FU0qatsLcniy/pcn5DyHYR+HOrRRp1ABKqTg==",
+  "dgSpecHash": "HcIKYMiDSaRTTuYFD6cf1UByqfMoCv44bXc7qEYL28TjsahrbAmqgf0MOjafby4WttgOpwQR5oGtnXgbZhdUeg==",
   "success": true,
   "projectFilePath": "/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/tests/PetStore.Api.Tests/PetStore.Api.Tests.csproj",
   "expectedPackageFiles": [
+    "/Users/mitsram/.nuget/packages/cleantest.framework/1.0.0-alpha.4/cleantest.framework.1.0.0-alpha.4.nupkg.sha512",
     "/Users/mitsram/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/Users/mitsram/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/mitsram/.nuget/packages/microsoft.codecoverage/17.6.0/microsoft.codecoverage.17.6.0.nupkg.sha512",
     "/Users/mitsram/.nuget/packages/microsoft.net.test.sdk/17.6.0/microsoft.net.test.sdk.17.6.0.nupkg.sha512",
     "/Users/mitsram/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/mitsram/.nuget/packages/microsoft.playwright/1.48.0/microsoft.playwright.1.48.0.nupkg.sha512",
     "/Users/mitsram/.nuget/packages/microsoft.testplatform.objectmodel/17.6.0/microsoft.testplatform.objectmodel.17.6.0.nupkg.sha512",
     "/Users/mitsram/.nuget/packages/microsoft.testplatform.testhost/17.6.0/microsoft.testplatform.testhost.17.6.0.nupkg.sha512",
     "/Users/mitsram/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
@@ -16,7 +19,14 @@
     "/Users/mitsram/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/Users/mitsram/.nuget/packages/nunit.analyzers/3.6.1/nunit.analyzers.3.6.1.nupkg.sha512",
     "/Users/mitsram/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512",
-    "/Users/mitsram/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
+    "/Users/mitsram/.nuget/packages/restsharp/112.1.0/restsharp.112.1.0.nupkg.sha512",
+    "/Users/mitsram/.nuget/packages/selenium.support/4.26.1/selenium.support.4.26.1.nupkg.sha512",
+    "/Users/mitsram/.nuget/packages/selenium.webdriver/4.26.1/selenium.webdriver.4.26.1.nupkg.sha512",
+    "/Users/mitsram/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/Users/mitsram/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/Users/mitsram/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/mitsram/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/Users/mitsram/.nuget/packages/system.text.json/6.0.10/system.text.json.6.0.10.nupkg.sha512"
   ],
   "logs": []
 }
