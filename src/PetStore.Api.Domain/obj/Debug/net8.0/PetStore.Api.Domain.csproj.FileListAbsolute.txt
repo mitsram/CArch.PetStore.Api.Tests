@@ -1,0 +1,12 @@
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/bin/Debug/net8.0/PetStore.Api.Domain.deps.json
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/bin/Debug/net8.0/PetStore.Api.Domain.dll
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/bin/Debug/net8.0/PetStore.Api.Domain.pdb
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/obj/Debug/net8.0/PetStore.Api.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/obj/Debug/net8.0/PetStore.Api.Domain.AssemblyInfoInputs.cache
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/obj/Debug/net8.0/PetStore.Api.Domain.AssemblyInfo.cs
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/obj/Debug/net8.0/PetStore.Api.Domain.csproj.CoreCompileInputs.cache
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/obj/Debug/net8.0/PetStore.Api.Domain.sourcelink.json
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/obj/Debug/net8.0/PetStore.Api.Domain.dll
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/obj/Debug/net8.0/refint/PetStore.Api.Domain.dll
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/obj/Debug/net8.0/PetStore.Api.Domain.pdb
+/Users/mitsram/Workspace/Projects/mitsram/CArch.PetStore.Api.Tests/src/PetStore.Api.Domain/obj/Debug/net8.0/ref/PetStore.Api.Domain.dll
