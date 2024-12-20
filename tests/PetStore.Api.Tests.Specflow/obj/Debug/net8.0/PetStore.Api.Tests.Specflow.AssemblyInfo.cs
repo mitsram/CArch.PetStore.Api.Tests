@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetStore.Api.Tests.Specflow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1847a4a93accf6285be7883b5f1da6bc4b6000d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54c5fd7c326d5d54003eb6ac9d67d32cc49d4722")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetStore.Api.Tests.Specflow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetStore.Api.Tests.Specflow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

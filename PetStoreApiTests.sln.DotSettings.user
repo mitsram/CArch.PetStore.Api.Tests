@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1a9215a9_002Dffc7_002D41c4_002D9d2a_002D78b29515d38c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddPet_ShouldReturnCreatedPet" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB::net8.0::PetApi.Tests.Specs.PetApiTests.AddPet_ShouldReturnCreatedPet&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB::net8.0::PetApi.Tests.Specs.PetApiTests.GetPet_ShouldReturnExistingPet&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetApi.Tests.Specflow.Features.PetStoreAPIFeature&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetApi.Tests.Specflow.Features.PetAPIFeature&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.Specflow.Features.PetAPIFeature.AddANewPet&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.Specflow.Features.PetStoreAPIFeature&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
