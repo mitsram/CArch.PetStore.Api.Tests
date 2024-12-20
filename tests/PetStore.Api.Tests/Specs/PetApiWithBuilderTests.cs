@@ -1,6 +1,6 @@
 using CleanTest.Framework.Drivers.ApiDriver.Builders;
 // using JsonApi.Application.Services;
-using PetStore.Api.Application.Builders;
+using PetStore.Api.Application.Data.Builders;
 using PetStore.Api.Application.Repositories;
 using PetStore.Api.Application.UseCases;
 using PetStore.Api.Domain.Entities;

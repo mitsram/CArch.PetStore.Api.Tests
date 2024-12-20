@@ -1,7 +1,7 @@
 using System.Text.Json;
 using PetStore.Api.Domain.Entities;
 
-namespace PetStore.Api.Application.Builders;
+namespace PetStore.Api.Application.Data.Builders;
 
 public class PetBuilder
 {
