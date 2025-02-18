@@ -1,7 +1,9 @@
-using TechTalk.SpecFlow;
+
 using PetStore.Api.Domain.Entities;
-using PetStore.Api.Tests.Specflow.Base;
-using TechTalk.SpecFlow.Assist;
+using PetStore.Api.Tests.BDD.Base;
+using Reqnroll;
+
+
 
 namespace PetApi.Tests.Specflow.StepDefinitions;
 
@@ -17,7 +19,7 @@ public class PetStepDefinitions : BaseStepDefinitions
     }
 
     [When(@"I add a new pet with the following details:")]
-    public async Task WhenIAddANewPetWithTheFollowingDetails(Table table)
+    public async Task WhenIAddANewPetWithTheFollowingDetails(DataTable table)
     {
         var petDetails = table.CreateInstance<PetDetails>();
         _testPet = new Pet
@@ -53,7 +55,7 @@ public class PetStepDefinitions : BaseStepDefinitions
     }
 
     [When(@"I update the pet with the following details:")]
-    public async Task WhenIUpdateThePetWithTheFollowingDetails(Table table)
+    public async Task WhenIUpdateThePetWithTheFollowingDetails(DataTable table)
     {
         var petDetails = table.CreateInstance<PetDetails>();
         var petToUpdate = new Pet

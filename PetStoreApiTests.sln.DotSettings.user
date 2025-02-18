@@ -1,11 +1,32 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1a9215a9_002Dffc7_002D41c4_002D9d2a_002D78b29515d38c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddPet_ShouldReturnCreatedPet" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB::net8.0::PetApi.Tests.Specs.PetApiTests.AddPet_ShouldReturnCreatedPet&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB::net8.0::PetApi.Tests.Specs.PetApiTests.GetPet_ShouldReturnExistingPet&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetApi.Tests.Specflow.Features.PetStoreAPIFeature&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetApi.Tests.Specflow.Features.PetAPIFeature&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.Specflow.Features.PetAPIFeature.AddANewPet&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.Specflow.Features.PetStoreAPIFeature&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AApiDriverFactory_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F3b10e16750674c5b97d551f77017ebd97c00_003F48_003Fa2e37439_003FApiDriverFactory_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AApiDriverFactory_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fd9d3dce558f54c09967c8e044292c3d56000_003F0b_003Faaa898f7_003FApiDriverFactory_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AIApiDriverAdapter_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fd9d3dce558f54c09967c8e044292c3d56000_003Fa3_003F8ebfaff3_003FIApiDriverAdapter_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1a9215a9_002Dffc7_002D41c4_002D9d2a_002D78b29515d38c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddPet_ShouldReturnCreatedPet" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB::net8.0::PetApi.Tests.Specs.PetApiTests.AddPet_ShouldReturnCreatedPet&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB::net8.0::PetApi.Tests.Specs.PetApiTests.GetPet_ShouldReturnExistingPet&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetApi.Tests.Specflow.Features.PetStoreAPIFeature&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetApi.Tests.Specflow.Features.PetAPIFeature&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.Specflow.Features.PetAPIFeature.AddANewPet&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.Specflow.Features.PetStoreAPIFeature&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.BDD.Features.PetStoreAPIFeature.AddANewPetToTheStore&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.BDD.Features.PetStoreAPIFeature.RetrieveAnExistingPet&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.BDD.Features.PetStoreAPIFeature&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.BDD.Features.PetAPIFeature&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB/d:Specs/f:PetApiWithBuilderTests.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB/d:Specs/f:PetApiTests.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=42f0b9af_002Dee21_002D4ce3_002Dbbce_002D777aacd16d17/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddPet_ShouldReturnCreatedPet #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;ProjectFile&gt;5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB/d:Specs/f:PetApiTests.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB/d:Specs/f:PetApiWithBuilderTests.cs&lt;/ProjectFile&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.BDD.Features.PetStoreAPIFeature&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::BB8F2669-298A-46A3-96E1-19C2CF2B61D8::net8.0::PetStore.Api.Tests.BDD.Features.PetAPIFeature&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+  &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

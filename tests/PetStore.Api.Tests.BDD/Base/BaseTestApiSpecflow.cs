@@ -1,8 +1,8 @@
 using CleanTest.Framework.Drivers.ApiDriver.Adapters;
 using CleanTest.Framework.Drivers.ApiDriver.Interfaces;
-using TechTalk.SpecFlow;
+using Reqnroll;
 
-namespace PetStore.Api.Tests.Specflow.Base;
+namespace PetStore.Api.Tests.BDD.Base;
 
 public class BaseTestApiSpecflow
 {

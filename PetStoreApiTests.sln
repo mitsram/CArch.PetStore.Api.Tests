@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{98D0569F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Api.Tests", "tests\PetStore.Api.Tests\PetStore.Api.Tests.csproj", "{5261C2AE-6BF2-41E9-B1B5-D03773B2A3FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Api.Tests.Specflow", "tests\PetStore.Api.Tests.Specflow\PetStore.Api.Tests.Specflow.csproj", "{BB8F2669-298A-46A3-96E1-19C2CF2B61D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Api.Tests.BDD", "tests\PetStore.Api.Tests.BDD\PetStore.Api.Tests.BDD.csproj", "{BB8F2669-298A-46A3-96E1-19C2CF2B61D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

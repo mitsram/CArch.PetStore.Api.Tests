@@ -23,8 +23,8 @@ public class PetApiWithBuilderTests : BaseTestApi
     [Test]
     public async Task GetPet_ShouldReturnExistingPet()
     {
-        // Arrange       
-        var newPet = PetBuilder.Empty()
+        // Arrange
+        var newPet = PetBuilder.CreateNew()
             .WithName("Buddy")
             .WithStatus("available")
             .WithPhotoUrls(

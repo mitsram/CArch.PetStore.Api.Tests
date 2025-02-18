@@ -1,8 +1,8 @@
 using PetStore.Api.Application.Repositories;
 using PetStore.Api.Application.UseCases;
-using TechTalk.SpecFlow;
+using Reqnroll;
 
-namespace PetStore.Api.Tests.Specflow.Base;
+namespace PetStore.Api.Tests.BDD.Base;
 
 public abstract class BaseStepDefinitions : BaseTestApiSpecflow
 {

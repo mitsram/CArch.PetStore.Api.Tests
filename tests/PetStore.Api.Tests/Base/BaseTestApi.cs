@@ -18,18 +18,7 @@ namespace PetApi.Tests
         [SetUp]
         public void SetUp()
         {
-            // Configuration
-            // var clientId = "your-client-id";
-            // var clientSecret = "your-client-secret";
-            // var tenantId = "your-tenant-id";
-            // var scopes = new[] { "https://your-api-scope" };            
-            // var authenticator = new MicrosoftAuthenticator(clientId, clientSecret, tenantId, scopes);            
-            // apiDriver = ApiDriverFactory.Create(BaseUrl, authenticator);
-            // var response = await apiDriver.SendRequestAsync("GET", "/pet/findByStatus?status=available");
-            // Console.WriteLine(response.StatusCode);
-
-            // Default
-            apiDriver = ApiDriverFactory.Create(BaseUrl);
+            apiDriver = ApiDriverFactory.Create(BaseUrl, "RestSharp");
         }
 
         [TearDown]
