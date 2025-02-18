@@ -1,6 +1,7 @@
-using TechTalk.SpecFlow;
 
-namespace PetStore.Api.Tests.Specflow.Base;
+using Reqnroll;
+
+namespace PetStore.Api.Tests.BDD.Base;
 
 [Binding]
 public class Hook : BaseTestApiSpecflow

@@ -3,8 +3,8 @@ using System.Text.Json.Serialization;
 using PetStore.Api.Application.Repositories;
 using PetStore.Api.Application.UseCases;
 using PetStore.Api.Domain.Entities;
-using PetStore.Api.Tests.Specflow.Base;
-using TechTalk.SpecFlow;
+using PetStore.Api.Tests.BDD.Base;
+using Reqnroll;
 
 namespace PetApi.Tests.Specflow.StepDefinitions;
 

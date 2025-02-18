@@ -7,11 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CleanTest.Framework" Version="1.0.0-alpha.4" />
+    <ProjectReference Include="..\PetStore.Api.Domain\PetStore.Api.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PetStore.Api.Domain\PetStore.Api.Domain.csproj" />
+    <EmbeddedResource Include="Data\Json\*.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CleanTest.Framework" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

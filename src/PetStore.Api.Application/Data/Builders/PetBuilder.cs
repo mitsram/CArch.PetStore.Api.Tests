@@ -12,14 +12,14 @@ public class PetBuilder
     private readonly List<CategoryBuilder> _categoriesBuilder = new();    
     private readonly List<TagBuilder> _tagsBuilder = new();
     private readonly List<string> _photoUrls = new();
-    private const string ResourceNamespace = "PetApi.Application.Builders.Json.";
+    private const string ResourceNamespace = "PetStore.Api.Application.Data.Json.";
 
     private PetBuilder()
     {
     }
 
-    public static PetBuilder Empty() => new();
-    public static PetBuilder Create()
+    public static PetBuilder CreateNew() => new();
+    public static PetBuilder CreateFromJson()
     {
         return CreateFromJson(ResourceNamespace + "Pet.json");
     }
@@ -32,10 +32,27 @@ public class PetBuilder
         return builder
             .WithId(pet.Id)
             .WithName(pet.Name)
-            .WithCategory(c => c
-                .Id(pet.Category.Id)
-                .Name(pet.Category.Name)
-            );
+            .WithStatus(pet.Status)
+            .WithCategory(c => 
+            {
+                if (pet.Category != null)
+                {
+                    c.Id(pet.Category.Id)
+                     .Name(pet.Category.Name);
+                }
+                else
+                {
+                    c.Id(0).Name("Uncategorized");
+                }
+            })
+            .WithTags(t =>
+            {
+                foreach (var tag in pet.Tags)
+                {
+                    t.Add(TagBuilder.Empty().Id(tag.Id).Name(tag.Name));
+                }
+            })
+            .WithPhotoUrls(pet.PhotoUrls);
     }
 
 
@@ -115,13 +132,19 @@ public class PetBuilder
         if (stream == null)
         {
             throw new InvalidOperationException(
-                $"Order JSON resource not found: {resourcePath}");
+                $"Pet JSON resource not found: {resourcePath}");
         }
 
         using var reader = new StreamReader(stream);
         var jsonContent = reader.ReadToEnd();
         
-        return JsonSerializer.Deserialize<Pet>(jsonContent) 
-            ?? throw new InvalidOperationException("Failed to deserialize order");
+        var options = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true,
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+        };
+        
+        return JsonSerializer.Deserialize<Pet>(jsonContent, options) 
+            ?? throw new InvalidOperationException("Failed to deserialize pet");
     }
 }

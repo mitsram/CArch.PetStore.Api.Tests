@@ -15,14 +15,15 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.2.1"/>
     <PackageReference Include="NUnit.Analyzers" Version="3.6.1"/>
     <PackageReference Include="coverlet.collector" Version="6.0.0"/>
-    <PackageReference Include="SpecFlow" Version="3.9.74"/>
-    <PackageReference Include="SpecFlow.NUnit" Version="3.9.74" />
-    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.74" />
+    <PackageReference Include="Reqnroll" Version="2.3.0" />    
+    <PackageReference Include="Reqnroll.NUnit" Version="2.3.0" />    
   </ItemGroup>  
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\PetStore.Api.Application\PetStore.Api.Application.csproj" />
     <ProjectReference Include="..\PetStore.Api.Tests\PetStore.Api.Tests.csproj" />
   </ItemGroup>
-
+  <ItemGroup>
+    <Content Include="**/*.feature"/>
+  </ItemGroup>
 </Project>
