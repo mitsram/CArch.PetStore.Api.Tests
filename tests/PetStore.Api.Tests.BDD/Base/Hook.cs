@@ -1,4 +1,5 @@
 
+using CleanTest.Framework.Drivers.WebDriver.Enums;
 using Reqnroll;
 
 namespace PetStore.Api.Tests.BDD.Base;
@@ -34,7 +35,7 @@ public class Hook : BaseTestApiSpecflow
             return;
         }
 
-        InitializeApiDriver();
+        InitializeApiDriver(ApiDriverType.Playwright);
         Console.WriteLine($"Starting scenario: {_scenarioContext.ScenarioInfo.Title}");
     }
 

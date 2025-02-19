@@ -1,4 +1,5 @@
 using CleanTest.Framework.Drivers.ApiDriver.Interfaces;
+using CleanTest.Framework.Drivers.WebDriver.Enums;
 using CleanTest.Framework.Factories;
 
 namespace PetApi.Tests
@@ -6,7 +7,7 @@ namespace PetApi.Tests
     public class BaseTestApi
     {
         protected IApiDriverAdapter apiDriver;
-        protected const string BaseUrl = "https://petstore.swagger.io/v2";
+        protected const string BaseUrl = "https://petstore.swagger.io";
 
         [OneTimeSetUp]
         public void OneTimeSetUp()
@@ -18,7 +19,7 @@ namespace PetApi.Tests
         [SetUp]
         public void SetUp()
         {
-            apiDriver = ApiDriverFactory.Create(BaseUrl, "RestSharp");
+            apiDriver = ApiDriverFactory.Create(BaseUrl, ApiDriverType.RestSharp);
         }
 
         [TearDown]
