@@ -15,7 +15,7 @@ public class PetRepository : IPetRepository
 
     public async Task<Pet> AddPetAsync(Pet pet)
     {
-        var response = await _apiDriver.SendRequestAsync("POST", "pet", pet);
+        var response = await _apiDriver.SendRequestAsync("POST", "v2/pet", pet);
         Console.WriteLine($"Response Status: {response.StatusCode}");
         Console.WriteLine($"Response Content: {response.Content}");
 
@@ -44,7 +44,7 @@ public class PetRepository : IPetRepository
 
     public async Task<Pet> GetPetByIdAsync(long petId)
     {
-        var response = await _apiDriver.SendRequestAsync("GET", $"pet/{petId}");
+        var response = await _apiDriver.SendRequestAsync("GET", $"v2/pet/{petId}");
         Console.WriteLine($"GetPetByIdAsync Response Status: {response.StatusCode}");
         Console.WriteLine($"GetPetByIdAsync Response Content: {response.Content}");
 
@@ -73,7 +73,7 @@ public class PetRepository : IPetRepository
 
     public async Task<Pet> UpdatePetAsync(Pet pet)
     {
-        var response = await _apiDriver.SendRequestAsync("PUT", "pet", pet);
+        var response = await _apiDriver.SendRequestAsync("PUT", "v2/pet", pet);
         Console.WriteLine($"UpdatePetAsync Response Status: {response.StatusCode}");
         Console.WriteLine($"UpdatePetAsync Response Content: {response.Content}");
 
@@ -102,7 +102,7 @@ public class PetRepository : IPetRepository
 
     public async Task<bool> DeletePetAsync(long petId)
     {
-        var response = await _apiDriver.SendRequestAsync("DELETE", $"pet/{petId}");
+        var response = await _apiDriver.SendRequestAsync("DELETE", $"v2/pet/{petId}");
         return response.StatusCode == 200;
     }
 }
